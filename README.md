@@ -83,7 +83,7 @@ Contains utility functions used throughout all other source files, including:
 - response sending, including error template serving.
 
 ### General 
-Error logs are produced to the stderr stream. Some diagnostic information is also regularly sent to stdout throughout the program. Valgrind was used to make the program runs memcheck clean.
+Error logs are produced to the stderr stream. Some diagnostic information is also regularly sent to stdout throughout the program. Valgrind was used to make sure the program runs memcheck clean.
 
 ## Testing
 ### Testing directory
